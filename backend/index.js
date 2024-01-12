@@ -7,6 +7,7 @@ global.foodData = require('./db')(function call(err, data, CatData) {
 })
 
 const express = require('express')
+// const BASE_URL=process.env.BASE_URL
 const app = express()
 const port = 5000
 app.use((req, res, next) => {
